@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
-import logo from '../public/ThonyX_transparent.png'
+import logo from 'public/ThonyX_transparent.png'
 
 const NavBar = () => {
     const [isSticky, setIsSticky] = useState(false);
