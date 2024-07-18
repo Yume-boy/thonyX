@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
-import logo from './public/ThonyX_transparent.png'
+import logo from 'public/ThonyX_transparent.png'
 
 const NavBar = () => {
     const [isSticky, setIsSticky] = useState(false);
@@ -26,7 +26,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="../public/ThonyX_transparent.png"
+            src={logo}
             width="50"
             height="50"
             className="d-inline-block align-top"
