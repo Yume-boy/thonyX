@@ -1,5 +1,11 @@
 import React from 'react'
 import { Container, Carousel, Card, Row, Col } from 'react-bootstrap';
+import POW1 from './POW1.jpg'
+import POW2 from './POW2.jpg'
+import POW3 from './POW3.jpg'
+import POW4 from './POW4.jpg'
+
+
 
 const ProofOfWork = () => {
   return (
@@ -19,7 +25,7 @@ const ProofOfWork = () => {
                 <Row xs={1} md={2} className="g-4">
                 <Col>
                     <Card className="work-card">
-                    <Card.Img variant="top" src="../public/POW1.jpg" />
+                    <Card.Img variant="top" src={POW1} />
                     <Card.Body>
                         <Card.Title>Project 1</Card.Title>
                         <Card.Text>
@@ -30,7 +36,7 @@ const ProofOfWork = () => {
                 </Col>
                 <Col>
                     <Card className="work-card">
-                    <Card.Img variant="top" src="../public/POW2.jpg" />
+                    <Card.Img variant="top" src={POW2} />
                     <Card.Body>
                         <Card.Title>Project 2</Card.Title>
                         <Card.Text>
@@ -45,7 +51,7 @@ const ProofOfWork = () => {
                 <Row xs={1} md={2} className="g-4">
                 <Col>
                     <Card className="work-card">
-                    <Card.Img variant="top" src="../public/POW3.jpg" />
+                    <Card.Img variant="top" src={POW3} />
                     <Card.Body>
                         <Card.Title>Project 3</Card.Title>
                         <Card.Text>
@@ -56,7 +62,7 @@ const ProofOfWork = () => {
                 </Col>
                 <Col>
                     <Card className="work-card">
-                    <Card.Img variant="top" src="../public/POW4.jpg" />
+                    <Card.Img variant="top" src={POW4} />
                     <Card.Body>
                         <Card.Title>Project 4</Card.Title>
                         <Card.Text>
@@ -87,7 +93,7 @@ const ProofOfWork = () => {
         <Row xs={1} md={1} className="g-4">
           <Col>
             <Card className="work-card">
-              <Card.Img variant="top" src="../public/POW1.jpg" />
+              <Card.Img variant="top" src={POW1}/>
               <Card.Body>
                 <Card.Title>Project 1</Card.Title>
                 <Card.Text>
@@ -103,7 +109,7 @@ const ProofOfWork = () => {
         <Row xs={1} md={1} className="g-4">
           <Col>
             <Card className="work-card">
-              <Card.Img variant="top" src="../public/POW2.jpg" />
+              <Card.Img variant="top" src={POW2} />
               <Card.Body>
                 <Card.Title>Project 1</Card.Title>
                 <Card.Text>
@@ -119,7 +125,7 @@ const ProofOfWork = () => {
         <Row xs={1} md={1} className="g-4">
           <Col>
             <Card className="work-card">
-              <Card.Img variant="top" src="../public/POW3.jpg" />
+              <Card.Img variant="top" src={POW3} />
               <Card.Body>
                 <Card.Title>Project 1</Card.Title>
                 <Card.Text>
@@ -135,7 +141,7 @@ const ProofOfWork = () => {
         <Row xs={1} md={1} className="g-4">
           <Col>
             <Card className="work-card">
-              <Card.Img variant="top" src="../public/POW4.jpg" />
+              <Card.Img variant="top" src={POW4} />
               <Card.Body>
                 <Card.Title>Project 3</Card.Title>
                 <Card.Text>
