@@ -25,7 +25,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="public/ThonyX_transparent.png"
+            src="./public/ThonyX_transparent.png"
             width="50"
             height="50"
             className="d-inline-block align-top"
