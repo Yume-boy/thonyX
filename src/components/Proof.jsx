@@ -18,11 +18,11 @@ import P12 from './P12.jpeg'
 const Proof = () => {
 
     const proofItems = [
+        { id: 3, image: P3, twitterLink: 'https://x.com/The_realThonyX/status/1812047215604441106' },
+        { id: 5, image: P5, twitterLink: 'https://x.com/the_realthonyx/status/1776188702487695590?s=46' },
         { id: 1, image: P1, twitterLink: 'https://x.com/the_realthonyx/status/1816791316224672156' },
         { id: 2, image: P2, twitterLink: 'https://x.com/the_realthonyx/status/1817549847169282222?s=46' },
-        { id: 3, image: P3, twitterLink: 'https://x.com/The_realThonyX/status/1812047215604441106' },
         { id: 4, image: P4, twitterLink: 'https://x.com/the_realthonyx/status/1815311619292831844?s=46' },
-        { id: 5, image: P5, twitterLink: 'https://x.com/the_realthonyx/status/1776188702487695590?s=46' },
         { id: 6, image: P6, twitterLink: 'https://x.com/the_realthonyx/status/1769350092484497670?s=46' },
         { id: 7, image: P7, twitterLink: 'https://x.com/the_realthonyx/status/1763309960631312498?s=46' },
         { id: 8, image: P8, twitterLink: 'https://x.com/the_realthonyx/status/1763204766203576560?s=46' },
