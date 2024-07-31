@@ -7,6 +7,7 @@ import ProofOfWork from './components/ProofOfWork'
 import ReasonsforHire from './components/ReasonsforHire'
 import Testimonials from './components/Testimonials'
 import NavBar from './components/NavBar'
+import Proof from './components/Proof'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <NavBar/>
       <HeroSection />
       <ReasonsforHire />
+      <Proof />
       <ProofOfWork />
       <Testimonials />
       <FAQ />

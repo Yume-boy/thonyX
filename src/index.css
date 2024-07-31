@@ -199,3 +199,35 @@ body {
 .contact {
   background-color: #f0f0f0;
 }
+
+.proof-section {
+  /* background-color: #1f1f1f; */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proof-section h2 {
+  /* color: #e0e0e0; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.proof-card {
+  background-color: #2c2c2c;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.proof-card a {
+  display: block;
+}
+
+.proof-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.proof-card:hover {
+  transform: scale(1.05);
+} 
