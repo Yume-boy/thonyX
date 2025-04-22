@@ -19,7 +19,7 @@ const ProofOfWork = () => {
             indicators={false}  // Hide the slide indicators if not needed
             controls={false}    // Hide the control arrows if not needed
             fade={false}        // Set to true for fade effect between slides
-            pause={false}       // Set to true to pause on hover
+            pause={true}       // Set to true to pause on hover
             wrap={true}         // Set to false to disable looping
             slide={true}        // Set to false for a fade effect
             >
