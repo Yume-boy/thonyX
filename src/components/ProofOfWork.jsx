@@ -13,7 +13,7 @@ const ProofOfWork = () => {
   return (
     <div>
         <Container className="proof-of-work-section my-5 d-none d-md-block">
-            <h2 className="text-center mb-4">Brands I Have Partnered With</h2>
+            <h2 className="text-center mb-4">Highlights And Case Study</h2>
             <Carousel
             interval={3000}  // Adjust interval (in milliseconds) as needed
             indicators={false}  // Hide the slide indicators if not needed
@@ -107,7 +107,7 @@ const ProofOfWork = () => {
 
 
         <Container className="proof-of-work-section my-5 d-md-none">
-    <h2 className="text-center mb-4">Proof of Work</h2>
+    <h2 className="text-center mb-4">Brands i have partnered with</h2>
     <Carousel
       interval={3000}  // Adjust interval (in milliseconds) as needed
       indicators={false}  // Hide the slide indicators if not needed

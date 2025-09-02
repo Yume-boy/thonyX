@@ -29,7 +29,7 @@ const Proof = () => {
         { id: 9, image: P9, twitterLink: 'https://x.com/the_realthonyx/status/1751542612941500444?s=46' },
         { id: 10, image: P10, twitterLink: 'https://x.com/the_realthonyx/status/1746504602520887612?s=46' },
         { id: 11, image: P11, twitterLink: 'https://x.com/the_realthonyx/status/1721905702040690913?s=46' },
-        { id: 12, image: P12, twitterLink: 'https://x.com/the_realthonyx/status/1817549847169282222?s=46' },
+        // { id: 12, image: P12, twitterLink: 'https://x.com/the_realthonyx/status/1817549847169282222?s=46' },
         
       ];
 

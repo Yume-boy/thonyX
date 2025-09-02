@@ -8,7 +8,8 @@ const HeroSection = () => {
       <div className="overlay">
         <img src={heroImage} alt="Individual" className="center-image" />
         
-        <h2>Anthony</h2>
+        <h2>ThonyX</h2>
+        <h3></h3>
       </div>
     </div>
   );
