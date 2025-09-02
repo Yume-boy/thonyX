@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const ReasonsforHire = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5 py-5">
         <Row>
         <Col>
             <h2>Reasons to Hire Me</h2>

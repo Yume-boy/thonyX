@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, ListGroup } from 'react-bootstrap';
-import 'animate.css'; // install via: npm install animate.css
+import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap';
+import 'animate.css';
 
 const Skills = () => {
   const skills = [
@@ -12,24 +12,28 @@ const Skills = () => {
   ];
 
   return (
-    <Container className="my-5">
-      <Row>
-        <Col>
-          <h2>Skills</h2>
-          <ListGroup variant="flush">
-            {skills.map((skill, idx) => (
-              <ListGroup.Item 
-                key={idx} 
-                className={`animate__animated animate__fadeInUp`}
-                style={{ animationDelay: `${idx * 0.2}s`, animationFillMode: 'both' }}
-              >
-                {skill}
-              </ListGroup.Item>
-            ))}
-          </ListGroup>
+    // <Container className="my-5">
+      <Row className="justify-content-center">
+        <Col md={10} className='my-5'>
+          <Card className="p-4 shadow-sm border-0 rounded-4 animate__animated animate__fadeInUp">
+            <Card.Body>
+              <h2 className="mb-3 fw-bold">Skills</h2>
+              <ListGroup variant="flush">
+                {skills.map((skill, idx) => (
+                  <ListGroup.Item
+                    key={idx}
+                    className="border-0 ps-0 animate__animated animate__fadeInUp"
+                    style={{ animationDelay: `${idx * 0.2}s`, animationFillMode: 'both' }}
+                  >
+                    <span className="fw-medium">• {skill}</span>
+                  </ListGroup.Item>
+                ))}
+              </ListGroup>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
-    </Container>
+    // </Container>
   );
 };
 
