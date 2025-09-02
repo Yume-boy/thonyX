@@ -1,3 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
+
+
+
 .hero-section {
   background-image: url('../public/Back 2.jpg');
   background-size: cover;
